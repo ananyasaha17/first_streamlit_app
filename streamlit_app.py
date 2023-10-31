@@ -45,7 +45,6 @@ streamlit.dataframe(fruityvice_normalized)
 
 #dont run anything from here , we are having throubleshoot
 streamlit.stop()
-
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
 my_cur.execute("select * from pc_rivery_db.public.fruit_load_list ")
