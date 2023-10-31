@@ -7,7 +7,7 @@ streamlit.text('Hard-Boiled Free-Range Egg')
 
 streamlit.text('Avocado toast')
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
-my_cur.execute("insert into fruit_load_list values('from streamlit')")
+
 
 
 import pandas
