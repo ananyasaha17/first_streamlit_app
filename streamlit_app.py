@@ -7,6 +7,7 @@ streamlit.text('Hard-Boiled Free-Range Egg')
 
 streamlit.text('Avocado toast')
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+my_cur.execute("insert into fruit_load_list values('from streamlit')")
 
 
 import pandas
@@ -50,5 +51,6 @@ fruit_add = streamlit.text_input('What fruit would you like to add?','Jackfruit'
 streamlit.write('Thank you for adding',fruit_add);
 
 my_cur.execute("insert into fruit_load_list values('from streamlit')")
+
 
 
