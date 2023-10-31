@@ -32,5 +32,5 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+"watermel
 # take the json format and normalise it
 
 #output it the screen as a display
-streamlit.dataframe(fruityvice_normalized)
+#streamlit.dataframe(fruityvice_normalized)
 
