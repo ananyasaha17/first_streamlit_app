@@ -57,8 +57,8 @@ streamlit.header("This fruit load list contains:")
 #snowflakw related functions
 def get_fruit_load_details():
      with  my_cnx.cursor() as my_cur:
-     my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
-     return my_cur.fetchall()
+          my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
+          return my_cur.fetchall()
 
 #Add a button to loadx the fruit
 if streamlit.button('Get Fruit load list'):
